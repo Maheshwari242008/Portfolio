@@ -1,0 +1,151 @@
+.home {
+  min-height: 100vh;
+  background: #0f172a;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 80px 10%;
+}
+
+.home-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.home-content {
+  flex: 1;
+}
+
+.greeting {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+.home-name {
+  font-size: 5rem;
+  font-weight: 800;
+  line-height: 1.1;
+  margin-bottom: 20px;
+}
+
+.home-role {
+  font-size: 2rem;
+  margin-bottom: 25px;
+  background: linear-gradient(
+    90deg,
+    #38bdf8,
+    #ba17a5
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.home-description {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  max-width: 600px;
+  color: #cbd5e1;
+  margin-bottom: 35px;
+}
+
+.home-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.btn-primary,
+.btn-secondary {
+  padding: 14px 28px;
+  border-radius: 8px;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+  transition: 0.3s ease;
+}
+
+.btn-primary {
+  background: linear-gradient(
+    90deg,
+    #38bdf8,
+    #ba17a5
+  );
+}
+
+.btn-secondary {
+  border: 2px solid #38bdf8;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 20px rgba(186, 23, 165, 0.3);
+}
+
+.home-image {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-image img {
+  width: 380px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #38bdf8;
+}
+
+/* Common style for all floating icons */
+.floating-icon {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  background: #1e293b;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  box-shadow: 0 0 15px rgba(186, 23, 165, 0.3);
+  z-index: 2;
+}
+
+/* Individual icon colors */
+.java {
+  color: #f89820;
+  top: -70px;
+  left: -10px;
+}
+
+.react {
+  color: #61dafb;
+  top: 170px;
+  right: -100px;
+}
+
+.spring {
+  color: #6db33f;
+  top: 180px;
+  left: -150px;
+}
+
+.mysql {
+  color: #26c9ed;
+  bottom: -90px;
+  right: 10px;
+}
+
+.mongodb {
+  color: #47a248;
+  bottom: -90px;
+  left: -10px;
+}
+.linkedin{
+    color:rgb(24, 24, 225);
+    top: -70px;
+  right: 10px;
+}
