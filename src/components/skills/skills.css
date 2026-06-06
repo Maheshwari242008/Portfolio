@@ -53,6 +53,7 @@
   grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
 }
+
 .skill-card {
   background: #1e293b;
   border-radius: 15px;

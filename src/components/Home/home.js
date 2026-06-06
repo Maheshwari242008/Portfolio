@@ -49,33 +49,33 @@ const Home = () => {
         {/* Right Side */}
         <div className="home-image">
 
-  <div className="floating-icon java">
-    <FaJava />
-  </div>
+          <div className="floating-icon java">
+            <FaJava />
+          </div>
 
-  <div className="floating-icon react">
-    <SiReact />
-  </div>
+          <div className="floating-icon react">
+            <SiReact />
+          </div>
 
-  <div className="floating-icon spring">
-    <SiSpringboot />
-  </div>
+          <div className="floating-icon spring">
+            <SiSpringboot />
+          </div>
 
-  <div className="floating-icon mysql">
-    <SiMysql />
-  </div>
+          <div className="floating-icon mysql">
+            <SiMysql />
+          </div>
 
-  <div className="floating-icon mongodb">
-    <SiMongodb />
-  </div>
-  
-  <div className="floating-icon linkedin">
-    <FaLinkedin />
-  </div>
+          <div className="floating-icon mongodb">
+            <SiMongodb />
+          </div>
+          
+          <div className="floating-icon linkedin">
+            <FaLinkedin />
+          </div>
 
 
-  <img src={profile} alt="Pankaj Menkudale" />
-</div>
+          <img src={profile} alt="Pankaj Menkudale" />
+        </div>
       </div>
     </section>
   );

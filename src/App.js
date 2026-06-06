@@ -3,8 +3,10 @@ import Home from './components/Home/home';
 import About from './components/about/about';
 import Skills from './components/skills/skills';
 import Exp from './components/Experience/exp';
-import Project from './components/project/project';
+// import Project from './components/project/project';
 import Contact from './components/contact/contact';
+import Footer from "./components/footer/footer";
+
 import './App.css';
 
 function App() {
@@ -28,13 +30,15 @@ function App() {
         <Exp />
       </section>
 
-      <section id="projects">
+      {/* <section id="projects">
         <Project />
-      </section>
+      </section> */}
 
       <section id="contact">
         <Contact />
       </section>
+
+      <Footer />
     </>
   );
 }

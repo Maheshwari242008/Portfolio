@@ -7,7 +7,7 @@ const Experience = () => {
   return (
     <section className="experience" id="experience">
       <div className="experience-container">
-        <h2 className="experience-title">Work Experience</h2>
+        <h2 className="experience-title">Experience & Projects</h2>
 
         <div className="company-card">
             <div className="img">

@@ -23,12 +23,12 @@ function Navbar() {
         </Link>
 
         <Link to="exp" smooth={true} duration={500}>
-          Experience
+          Experience & Projects
         </Link>
 
-        <Link to="projects" smooth={true} duration={500}>
+        {/* <Link to="projects" smooth={true} duration={500}>
           Projects
-        </Link>
+        </Link> */}
 
         <Link to="contact" smooth={true} duration={500}>
           Contact
